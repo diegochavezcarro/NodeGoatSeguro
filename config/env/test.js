@@ -1,8 +1,8 @@
 module.exports = {
    // If you want to debug regression tests, you will need the following.
-   zapHostName: "192.168.56.20",
+   zapHostName: "localhost",
    zapPort: "8080",
    // Required from Zap 2.4.1. This key is set in Zap Options -> API _Api Key.
-   zapApiKey: "v9dn0balpqas1pcc281tn5ood1",
+   zapApiKey: "6q2tfp7icl1gbh9jteafqcnrt",
    zapApiFeedbackSpeed: 5000 // Milliseconds.
 };

@@ -46,7 +46,7 @@ chrome.setDefaultService(service);
 
 test.before(function() {
     "use strict";
-    this.timeout(20000);
+    this.timeout(50000);
     webDriver = new seleniumWebdriver.Builder()
         .withCapabilities(seleniumWebdriver.Capabilities.chrome())
         // http://code.tutsplus.com/tutorials/an-introduction-to-webdriver-using-the-javascript-bindings--cms-21855
