@@ -24,8 +24,8 @@ var fs = require("fs");
 var https = require("https");
 var path = require("path");
 var httpsOptions = {
-    key: fs.readFileSync(path.resolve(__dirname, "./artifacts/cert/server.key")),
-    cert: fs.readFileSync(path.resolve(__dirname, "./artifacts/cert/server.crt"))
+    key: fs.readFileSync(path.resolve(__dirname, "./artifacts/cert/key.pem")),
+    cert: fs.readFileSync(path.resolve(__dirname, "./artifacts/cert/key-cert.pem"))
 };
 
 
